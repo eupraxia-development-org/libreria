@@ -1,0 +1,45 @@
+{
+  "name": "ng-uikit-pro-standard",
+  "version": "10.0.0",
+  "files": [
+    "assets/**/*",
+    "bundles/**/*",
+    "esm5/**/*",
+    "esm2015/**/*",
+    "fesm5/**/*",
+    "fesm2015/**/*",
+    "lib/**/*",
+    "schematics/**/*",
+    ".gitignore",
+    "changelog",
+    "license.pdf",
+    "ng-uikit-pro-standard.d.ts",
+    "ng-uikit-pro-standard.metadata.json",
+    "package.json",
+    "public_api.d.ts"
+  ],
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^10.0.0",
+    "@angular/core": "^10.0.0",
+    "@angular/animations": "^10.0.0",
+    "@angular/forms": "^10.0.0",
+    "@angular/cdk": "^10.0.0"
+  },
+  "schematics": "./schematics/collection.json",
+  "ng-update": {
+    "migrations": "./schematics/migration.json"
+  },
+  "main": "bundles/ng-uikit-pro-standard.umd.js",
+  "module": "fesm5/ng-uikit-pro-standard.js",
+  "es2015": "fesm2015/ng-uikit-pro-standard.js",
+  "esm5": "esm5/ng-uikit-pro-standard.js",
+  "esm2015": "esm2015/ng-uikit-pro-standard.js",
+  "fesm5": "fesm5/ng-uikit-pro-standard.js",
+  "fesm2015": "fesm2015/ng-uikit-pro-standard.js",
+  "typings": "ng-uikit-pro-standard.d.ts",
+  "metadata": "ng-uikit-pro-standard.metadata.json",
+  "sideEffects": false
+}
